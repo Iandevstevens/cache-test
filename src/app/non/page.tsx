@@ -1,6 +1,8 @@
+"use cache";
+
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
   return (
     <div>
       <img alt="" src="/images/image.jpg" width={500} height={500}></img>
